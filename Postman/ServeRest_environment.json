@@ -1,0 +1,19 @@
+{
+  "id": "8f2b1e3a-1c4d-4a2e-9b7f-serverest-qa-env",
+  "name": "ServeRest - QA Automation",
+  "values": [
+    {
+      "key": "URL",
+      "value": "https://serverest.dev",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}
