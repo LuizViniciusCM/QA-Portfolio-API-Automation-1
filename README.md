@@ -6,7 +6,7 @@ Switch de testes funcionais automatizados para a API pública [ServeRest](https:
 > **Versão:** 2.0 - Automatizada (baseada no Plano de Testes Manual v1.0)  
 > **Data:** 08/08/2026
 
-> 📌 **Este repositório é a evolução automatizada do projeto de testes manuais.** A v1.0, com plano de testes manual, casos de teste, matriz de execução, relatório de bugs e Test Summary Report do Ciclo 1, está disponível em [QA-Portfolio-API-Test-1](https://github.com/LuizViniciusCM/QA-Portfolio-API-Test-1).
+> **Este repositório é a evolução automatizada do projeto de testes manuais.** A v1.0, com plano de testes manual, casos de teste, matriz de execução, relatório de bugs e Test Summary Report do Ciclo 1, está disponível em [QA-Portfolio-API-Test-1](https://github.com/LuizViniciusCM/QA-Portfolio-API-Test-1).
 
 ---
 
@@ -84,7 +84,7 @@ Testes - ServeRest (Automatizada)
 
 ## Casos de Teste
 
-### 🔐 Login
+### Login
 
 | ID | Título | Tipo | Prioridade |
 |---|---|---|---|
@@ -133,7 +133,7 @@ Testes - ServeRest (Automatizada)
 | CT-28 | Cancelar compra do carrinho | Funcional | 🔴 Alta |
 | CT-32 | Consulta de carrinho (listagem) | Funcional | 🟡 Média |
 
-### 🔒 Segurança
+### Segurança
 
 | ID | Título | Tipo | Prioridade |
 |---|---|---|---|
@@ -226,15 +226,15 @@ Cada requisição valida consistentemente quatro aspectos:
 
 ## Critérios de Entrada e Saída
 
-### ✅ Critérios de entrada
+### Critérios de entrada
 - Ambiente `https://serverest.dev` acessível
 - Collection e environment importados e validados no Postman
 
-### ✅ Critérios de saída
+### Critérios de saída
 - 100% dos 32 casos de teste executados com sucesso
 - Nenhuma falha (*failure*) ou erro (*error*) reportado no resumo do Postman
 
-### ⏸️ Critério de suspensão e retomada
+### Critério de suspensão e retomada
 A execução é suspensa caso o ambiente fique indisponível ou o rate limit da API seja atingido. Como toda a massa é gerada em runtime, a switch pode ser **retomada a qualquer momento** sem necessidade de reconfiguração.
 
 ---
